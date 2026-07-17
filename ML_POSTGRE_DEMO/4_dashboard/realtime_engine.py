@@ -55,9 +55,9 @@ def send_gmail_alert(anomaly_score, status_level, details=""):
     SMTP_PORT = 587
     
     # Kế hoạch thực tế: Thay thế bằng thông tin Gmail và App Password của bạn
-    SENDER_EMAIL = "your_email@gmail.com"      
-    SENDER_PASSWORD = "your_app_password"     
-    RECEIVER_EMAIL = "target_email@gmail.com"  
+    SENDER_EMAIL = "tritinh11022004@gmail.com"      
+    SENDER_PASSWORD = "gvbb xkur yvsm jhjn"     
+    RECEIVER_EMAIL = "tritinh11022004@gmail.com"  
 
     subject = f"🚨 [AI ALERT] Phát hiện mối đe dọa mạng: {status_level}!"
     body = f"""
